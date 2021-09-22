@@ -10,7 +10,7 @@ Text blocks, including Markdown, form the basic building blocks of a document. O
 
     <param ve-config
         title="Learning Juncture Page Format"
-        banner="https://www.ed.ac.uk/files/styles/banner_breakpoints_theme_uoe_tv_1x/public/banner/0054344c.jpg?itok=U3rNOqQA&timestamp=1442566890"
+        banner="https://www.ed.ac.uk/files/styles/banner_breakpoints_theme_uoe_tv_1x/public/banner/0054344c.jpg"
         layout="vtl"
         author="Gavin Inglis">
         
