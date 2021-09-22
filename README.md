@@ -11,7 +11,7 @@ Text blocks, including Markdown, form the basic building blocks of a document. O
     <param ve-config
         title="Learning Juncture Page Format"
         banner="https://www.ed.ac.uk/files/styles/banner_breakpoints_theme_uoe_tv_1x/public/banner/0054344c.jpg"
-        layout="vertical"
+        layout="horizontal"
         author="Gavin Inglis">
         
 Banner is the URL for a banner image.
@@ -25,7 +25,7 @@ Layout is vertical/horizontal.
 <param ve-config
         title="Learning Juncture Page Format"
         banner="https://www.ed.ac.uk/files/styles/banner_breakpoints_theme_uoe_tv_1x/public/banner/0054344c.jpg"
-        layout="vertical"
+        layout="horizontal"
         author="Gavin Inglis">
         
 # <param ve-config 
