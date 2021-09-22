@@ -1,14 +1,38 @@
 # juncturetest
 
-Trying out JSTOR Juncture
+# Learning the format
+
+Working through [Anatomy of a Visual Essay](https://github.com/JSTOR-Labs/juncture/wiki/Anatomy-of-a-Visual-Essay).
+
+Text blocks, including Markdown, form the basic building blocks of a document. One or more visualisations can be associated with each. You do this by attaching a *visual essay tag*. These must begin at the **start of a line**. They're usually at the end of the paragraph.  
+
+# Configuration tag
+
+    <param ve-config
+        title="Learning Juncture Page Format"
+        banner="https://www.ed.ac.uk/files/styles/banner_breakpoints_theme_uoe_tv_1x/public/banner/0054344c.jpg?itok=U3rNOqQA&timestamp=1442566890"
+        layout="vtl"
+        author="Gavin Inglis">
+        
+Banner is the URL for a banner image.
+
+Layout is vertical/horizontal.
+
+---
 
 <a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
 
-<param ve-config 
-       title="Girl with a Pearl Earring"
-       author="JSTOR Labs team"
-       banner="https://iiif.juncture-digital.org/banner/?url=https://upload.wikimedia.org/wikipedia/commons/4/47/Bartholomeus_Johannes_van_Hove%2C_Het_Mauritshuis_te_Den_Haag.jpg" 
-       layout="vertical">
+<param ve-config
+        title="Learning Juncture Page Format"
+        banner="https://www.ed.ac.uk/files/styles/banner_breakpoints_theme_uoe_tv_1x/public/banner/0054344c.jpg?itok=U3rNOqQA&timestamp=1442566890"
+        layout="vtl"
+        author="Gavin Inglis">
+        
+# <param ve-config 
+#        title="Girl with a Pearl Earring"
+#        author="JSTOR Labs team"
+#        banner="https://iiif.juncture-digital.org/banner/?url=https://upload.wikimedia.org/wikipedia/commons/4/47/Bartholomeus_Johannes_van_Hove%2C_Het_Mauritshuis_te_Den_Haag.jpg" 
+#        layout="vertical">
 
 <!-- Entities discussed throughout the essay are typically defined before the essay text and
      are thus available in all text.  Entity identifiers (QIDs) can be found in either
